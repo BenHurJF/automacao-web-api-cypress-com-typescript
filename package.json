@@ -1,0 +1,20 @@
+{
+  "name": "testes-automatizados",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test:homolog": "cypress run --env baseUrl='https://www...'",
+    "test:prod": "cypress run --env baseUrl='https://www...'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.6.7",
+    "cypress": "^12.13.0",
+    "cypress-mochawesome-reporter": "^3.8.1",
+    "cypress-plugin-steps": "^1.1.1",
+    "typescript": "^5.3.3"
+  }
+}
